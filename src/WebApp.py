@@ -19,7 +19,10 @@ def result(patt):
         pattern = request.form["key"]
         return redirect(url_for("result", patt=pattern))
     else: # tergantung kepada input user
-        hasil = process("../data/Pasal 1.txt", patt)
+        database = os.listdir("../data")
+        hasil = []
+        for i in range (len(database)):
+            hasil += process("../data/" + database[i], patt)
         if not(hasil):
             return render_template("index.html", list=[["Tidak ditemukan", ""]])
         else:

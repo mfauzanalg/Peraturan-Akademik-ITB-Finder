@@ -1,0 +1,7 @@
+Pasal 19
+Mahasiswa ITB yang diizinkan melakukan pendaftaran ulang adalah mahasiswa yang terdaftar pada
+semester sebelumnya, dengan persyaratan:
+a. Memiliki KSM (Kartu Studi Mahasiswa) semester sebelumnya dan KTM (Kartu Tanda Mahasiswa).
+b. Melunasi biaya pendidikan dan iuran sah lainnya untuk semester terkait.
+c. Memiliki rencana studi untuk semester terkait yang telah disetujui oleh wali akademik.
+d. Tidak memiliki kasus/tunggakan terkait layanan/fasilitas akademik yang disediakan oleh ITB. 
