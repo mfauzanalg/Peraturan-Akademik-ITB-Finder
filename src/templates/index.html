@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+        <title>
+            Peraturan ITB
+        </title>
+        <style type="text/css">
+            .jumbotron{
+                text-shadow: 2px 2px 2px black;
+                margin-top: 20px;
+                margin-left: 80px;
+                margin-right: 80px;
+                background-image: url("https://images.unsplash.com/photo-1479981280584-037818c1297d?ixlib=rb-1.2.1&w=1000&q=80");
+                background-repeat: no-repeat;
+                background-size: 1500px;
+            }
+            .jumbotron .container h1{
+                font-family: 'Courgette', cursive;
+                color: aliceblue;
+            }
+            .jumbotron .container p{
+                color: aliceblue;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div class="jumbotron text-center">
+            <div class="container">
+                <h1>Welcome to Fauzan Peraturan Akademik ITB WebApp</h1>
+                <p> This application uses Boyer-Moore algorithm in extracting info</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label>Hello Peeps! What are you looking for?</label>
+                    <input type="text" name="key" class="form-control" placeholder="Input Keyword">
+
+                    <br>
+                    <input class="btn btn-info" type="submit" value="Let's Search">
+                </div>
+            </form>
+        </div>
+
+        <div class = "container">
+            {% for i in list %}
+                <br>
+                {{i[1]}}
+                <br>
+                {{i[0]}}
+                <br>
+            {% endfor %}
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
